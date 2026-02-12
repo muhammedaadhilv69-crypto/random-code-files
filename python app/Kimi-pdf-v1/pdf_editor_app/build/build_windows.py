@@ -33,7 +33,7 @@ args = [
     f'--specpath={build_dir}',
     
     # Add data files
-    f'--add-data={src_dir};src',
+    f'--add-data={src_dir}:src',
     
     # Hidden imports
     '--hidden-import=fitz',
