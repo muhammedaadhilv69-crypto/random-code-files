@@ -28,6 +28,7 @@ args = [
     '--windowed',
     '--clean',
     '--noconfirm',
+    '--enable-shared',
     f'--distpath={dist_dir}',
     f'--workpath={build_dir}',
     f'--specpath={build_dir}',
