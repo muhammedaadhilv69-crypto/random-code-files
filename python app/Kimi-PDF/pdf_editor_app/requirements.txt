@@ -1,0 +1,35 @@
+# Core dependencies
+PyQt6>=6.4.0
+PyMuPDF>=1.23.0
+pikepdf>=8.0.0
+
+# Cryptography for digital signatures
+cryptography>=41.0.0
+pyopenssl>=23.0.0
+
+# Image processing
+Pillow>=10.0.0
+
+# OCR
+pytesseract>=0.3.10
+
+# PDF generation
+reportlab>=4.0.0
+
+# Export formats
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# Utilities
+python-dateutil>=2.8.0
+qrcode>=7.4.0
+
+# Build tools
+pyinstaller>=5.13.0
+
+# Optional: For better OCR accuracy
+# easyocr>=1.7.0  # Uncomment if needed
+
+# Optional: For table extraction
+# camelot-py>=0.11.0  # Uncomment if needed
+# tabula-py>=2.8.0  # Uncomment if needed
